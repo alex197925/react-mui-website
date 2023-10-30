@@ -23,7 +23,7 @@ import React from "react";
 
 function Sidebar() {
   return (
-    <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box flex={1} p={2} sx={{ display: { xs: "none", md: "block" } }}>
       <Box position='fixed'>
         <List>
           <ListItem disablePadding>
