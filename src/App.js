@@ -4,16 +4,18 @@ import Sidebar from "./components/Sidebar";
 import Rightbar from "./components/Rightbar";
 import { Stack, Box } from "@mui/material";
 import Navbar from "./components/Navbar";
+import Add from "./components/Add";
 
 const App = () => {
   return (
     <Box>
-    <Navbar/>
+      <Navbar />
       <Stack direction='row' spacing={2} justifyContent='space-between'>
         <Sidebar />
         <Feed />
         <Rightbar />
       </Stack>
+      <Add />
     </Box>
   );
 };
